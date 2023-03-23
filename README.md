@@ -2,6 +2,10 @@
 
 This project was created to send a message on whatsapp for one person to remember birthdays by a csv file
 
+## Improvements
+
+- [] Add Twilio
+
 ## Serverless - AWS Node.js Typescript
 
 This project has been generated using the `aws-nodejs-typescript` template from the [Serverless framework](https://www.serverless.com/).
