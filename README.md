@@ -4,7 +4,33 @@ This project was created to send a message on whatsapp for one person to remembe
 
 ## Improvements
 
-- [] Add Twilio
+- [ ] receive file by csv route
+- [ ] Add Twilio
+
+## Lambdas
+
+### send-alert
+
+- Path: /send-alert
+- Method: **POST**
+- Response:
+
+  ```
+  {
+      "message": "Birthday alert sents!"
+  }
+  ```
+
+### upload-csv
+
+- Path: /csv
+- Method: **POST**
+- Response:
+  ```
+  {
+      "message": "File Uploaded to S3"
+  }
+  ```
 
 ## Serverless - AWS Node.js Typescript
 
